@@ -89,6 +89,8 @@ Database index:
 (machineId, eventTime)
 ```
 
+Note: `machineId` encodes factory and line information in the format `Fxx-Lxx-Mxxx` to enable factory- and line-level analytics without additional schema fields.
+
 
 ---
 
